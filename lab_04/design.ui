@@ -14,51 +14,17 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>120</x>
-      <y>20</y>
-      <width>31</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>N = </string>
-    </property>
-   </widget>
    <widget class="QWidget" name="gridLayoutWidget">
     <property name="geometry">
      <rect>
       <x>30</x>
       <y>50</y>
       <width>341</width>
-      <height>311</height>
+      <height>371</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
-     <item row="0" column="2">
-      <widget class="QLabel" name="label_4">
-       <property name="text">
-        <string>P</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="1">
-      <widget class="QLabel" name="label_3">
-       <property name="text">
-        <string>Y</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="0">
-      <widget class="QLabel" name="label_2">
-       <property name="text">
-        <string>X</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0" colspan="3">
+     <item row="0" column="0" colspan="2">
       <widget class="QTableWidget" name="tableWidget">
        <property name="enabled">
         <bool>true</bool>
@@ -95,45 +61,15 @@
        </column>
       </widget>
      </item>
-     <item row="1" column="0">
-      <widget class="QDoubleSpinBox" name="QSB_x">
-       <property name="minimum">
-        <double>-1000.000000000000000</double>
-       </property>
-       <property name="maximum">
-        <double>1000.000000000000000</double>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="1">
-      <widget class="QDoubleSpinBox" name="QSB_y">
-       <property name="minimum">
-        <double>-1000.000000000000000</double>
-       </property>
-       <property name="maximum">
-        <double>1000.000000000000000</double>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="2">
-      <widget class="QDoubleSpinBox" name="QSB_p">
-       <property name="minimum">
-        <double>-1000.000000000000000</double>
-       </property>
-       <property name="maximum">
-        <double>1000.000000000000000</double>
-       </property>
-      </widget>
-     </item>
     </layout>
    </widget>
    <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
       <x>29</x>
-      <y>370</y>
+      <y>429</y>
       <width>341</width>
-      <height>170</height>
+      <height>112</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -141,20 +77,6 @@
       <widget class="QPushButton" name="Qbtn_random">
        <property name="text">
         <string>ЗАПОЛНИТЬ СЛУЧАЙНО</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="Qbtn_add">
-       <property name="text">
-        <string>ДОБАВИТЬ</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="Qbtn_Edit">
-       <property name="text">
-        <string>ИЗМЕНИТЬ</string>
        </property>
       </widget>
      </item>
@@ -181,18 +103,46 @@
      </item>
     </layout>
    </widget>
-   <widget class="QSpinBox" name="QSB_n">
+   <widget class="QWidget" name="gridLayoutWidget_2">
     <property name="geometry">
      <rect>
-      <x>141</x>
-      <y>20</y>
-      <width>121</width>
-      <height>22</height>
+      <x>30</x>
+      <y>10</y>
+      <width>341</width>
+      <height>41</height>
      </rect>
     </property>
-    <property name="minimum">
-     <number>1</number>
-    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="1" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Количество точек</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QSpinBox" name="QSB_n">
+       <property name="minimum">
+        <number>1</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>      Степень 
+      полинома</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QSpinBox" name="QSB_power">
+       <property name="minimum">
+        <number>1</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
