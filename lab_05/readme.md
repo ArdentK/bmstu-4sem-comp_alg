@@ -363,7 +363,9 @@ $$\int_{-1}^1f(f)df=f(-\frac{1}{\sqrt{3}}) + f(\frac{1}{\sqrt{3}})$$
 
 $$\int_a^bf(x)dx = \frac{b-a}{2}(f(\frac{b+a}{2}-\frac{1}{\sqrt{3}}\frac{b-a}{2}) + f(\frac{b+a}{2}+\frac{1}{\sqrt{3}}\frac{b-a}{2}))$$
 
-1. *Получить обобщенную кубатурную формулу, аналогичную (6.6) из лекции №6, для вычисления двойного интеграла методом последовательного интегрирования на основе формулы трапеций с тремя узлами по каждому направлению.*
+4. *Получить обобщенную кубатурную формулу, аналогичную (6.6) из лекции №6, для вычисления двойного интеграла методом последовательного интегрирования на основе формулы трапеций с тремя узлами по каждому направлению.*
+
+https://latex.codecogs.com/gif.latex?%5Clarge%20y_1%20%3D%20y_0%20&plus;%20h%5E%5Cprime_0%20&plus;%20%5Cfrac%7Bh%5E2%7D%7B2%21%7Dy%5E%7B%5Cprime%5Cprime%7D_0%20-%20%5Cfrac%7Bh%5E3%7D%7B3%21%7Dy%5E%7B%5Cprime%5Cprime%5Cprime%7D_0%24%24%20%24%24y_2%20%3D%20y_0%20&plus;%202h%5E%5Cprime_0%20&plus;%20%5Cfrac%7B4h%5E2%7D%7B2%21%7Dy%5E%7B%5Cprime%5Cprime%7D_0%20-%20%5Cfrac%7B8h%5E3%7D%7B3%21%7Dy%5E%7B%5Cprime%5Cprime%5Cprime%7D_0%24%24%20%24%24y_3%20%3D%20y_0%20&plus;%203h%5E%5Cprime_0%20&plus;%20%5Cfrac%7B9h%5E2%7D%7B2%21%7Dy%5E%7B%5Cprime%5Cprime%7D_0%20-%20%5Cfrac%7B27h%5E3%7D%7B3%21%7Dy%5E%7B%5Cprime%5Cprime%5Cprime%7D_0%24%24%20%24%24y%5E%5Cprime%20%3D%20%5Cfrac%7By_3&plus;27y_1-28y_0%7D%7B30h%7D%20&plus;%20O%28h%5E3%29
 
 $$\int_c^d\int_a^bf(x,y)dxdy=\int_a^bdx\int_c^df(x,y)dy=\int_a^bF(x)dx=h_x(\frac{1}{2}F_0+F_1+\frac{1}{2}F_2) = $$
 
